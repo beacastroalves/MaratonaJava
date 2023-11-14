@@ -16,6 +16,6 @@ public class ExerciseConditionals01 {
     }
 
     System.out.println("The value is " + message + result);
-    
+
   }
 }
