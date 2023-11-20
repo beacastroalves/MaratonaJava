@@ -12,10 +12,13 @@ import java.util.Scanner;
 public class ExerciseConditionals05 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
+    System.out.println("Please type your username");
     String username = input.next();
-    System.out.println(username + "was registered successfully");
-
-
-
+    if (username.equals("") || username.equalsIgnoreCase("admin")
+        || username.equalsIgnoreCase("administrator")) {
+      System.out.println("Invalid username");
+    }
+    System.out.println(username + " was registered successfully");
+    
   }
 }
