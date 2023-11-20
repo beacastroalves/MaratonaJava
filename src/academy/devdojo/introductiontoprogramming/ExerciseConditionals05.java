@@ -19,6 +19,6 @@ public class ExerciseConditionals05 {
       System.out.println("Invalid username");
     }
     System.out.println(username + " was registered successfully");
-    
+
   }
 }
