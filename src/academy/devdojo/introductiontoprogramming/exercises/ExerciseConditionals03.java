@@ -1,4 +1,4 @@
-package academy.devdojo.introductiontoprogramming;
+package academy.devdojo.introductiontoprogramming.exercises;
 
 /* Given an age, find the best category to fir that person
 < 13 = "Kids"

@@ -1,4 +1,4 @@
-package academy.devdojo.introductiontoprogramming;
+package academy.devdojo.introductiontoprogramming.exercises;
 /*
   Given a number
   If the number is even print the message: The number: <number> is even

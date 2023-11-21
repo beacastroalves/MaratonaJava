@@ -1,4 +1,4 @@
-package academy.devdojo.introductiontoprogramming;
+package academy.devdojo.introductiontoprogramming.exercises;
 
 public class ExerciseConditionals01 {
   public static void main(String[] args) {

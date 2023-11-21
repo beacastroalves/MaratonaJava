@@ -1,4 +1,4 @@
-package academy.devdojo.introductiontoprogramming;
+package academy.devdojo.introductiontoprogramming.variables;
 
 public class FirstClass {
     public static void main(String[] args) {

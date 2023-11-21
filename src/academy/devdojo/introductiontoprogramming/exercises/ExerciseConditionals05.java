@@ -1,4 +1,4 @@
-package academy.devdojo.introductiontoprogramming;
+package academy.devdojo.introductiontoprogramming.exercises;
 
 /*
   Create a program that allows users to input their username to be saved at a later date
