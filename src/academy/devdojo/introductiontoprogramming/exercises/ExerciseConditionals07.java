@@ -2,7 +2,7 @@ package academy.devdojo.introductiontoprogramming.exercises;
 
 import java.util.Scanner;
 
-public class ExercoseConditionals07 {
+public class ExerciseConditionals07 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.println("Type a number for the day of the week between 1 and 7. Use 1 for Sunday.");
@@ -23,8 +23,6 @@ public class ExercoseConditionals07 {
       default:
         System.out.println("Invalid input");
         break;
-
-
     }
   }
 }
