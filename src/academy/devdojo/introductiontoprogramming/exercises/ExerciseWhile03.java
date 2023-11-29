@@ -10,22 +10,24 @@ import java.util.Scanner;
 * */
 public class ExerciseWhile03 {
   public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
     String username = "bca8001";
     String password = "BR1502";
-    Scanner scanner = new Scanner(System.in);
+
     while (true) {
-      System.out.println("Type your username");
+      System.out.println("Username");
       String usernameType = scanner.nextLine();
-      System.out.println("Type your password");
+
+      System.out.println("Password");
       String passwordType = scanner.nextLine();
 
       if (username.equals(usernameType) && password.equals(passwordType)) {
-        System.out.println("Login ok");
+        System.out.println("ACCESS GRANTED");
         break;
-      } else {
-        System.out.println("ACCESS DENIED. Try again");
       }
+      System.out.println("ACCESS DENIED");
     }
+
+    System.out.println("Program finished");
   }
 }
-
