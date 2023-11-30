@@ -1,4 +1,4 @@
-package academy.devdojo.introductiontoprogramming.loops;
+package academy.devdojo.introductiontoprogramming.loops.whiles;
 
 public class While01 {
   public static void main(String[] args) {
