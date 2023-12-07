@@ -7,9 +7,8 @@ public class ExerciseFor04Calculator {
     Scanner input = new Scanner(System.in);
     int n1 = 0;
     int n2 = 0;
-    int optionMath = 0;
-    boolean menu = true;
-    do {
+    int optionMath = 1;
+    while (optionMath != 0) {
       System.out.println("Choose the math option\n" +
           "1 - Sum\n" +
           "2 - Subtraction\n" +
@@ -17,7 +16,6 @@ public class ExerciseFor04Calculator {
           "4 - Division\n" +
           "0 - Exit");
 
-      optionMath = 1;
       optionMath = input.nextInt();
       switch (optionMath) {
         case 1:
@@ -59,8 +57,5 @@ public class ExerciseFor04Calculator {
           }
       }
     }
-    while (optionMath != 0);
-
-
   }
 }
