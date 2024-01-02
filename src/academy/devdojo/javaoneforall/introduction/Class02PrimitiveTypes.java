@@ -13,6 +13,7 @@ public class Class02PrimitiveTypes {
     short shortNumber = 32000;
     byte byteNumber = 127;
     char character = '\u0041';
+    String name = "Goku";
 
     System.out.println("The age is: " + age + " years old");
     System.out.println("bigNumber: " + bigNumber);
@@ -24,5 +25,6 @@ public class Class02PrimitiveTypes {
     System.out.println("shortNumber: " + shortNumber);
     System.out.println("byteNumber: " + byteNumber);
     System.out.println("character: " + character);
+    System.out.println("Hi I am " + name);
   }
 }
