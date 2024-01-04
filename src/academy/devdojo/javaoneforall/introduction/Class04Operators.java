@@ -42,5 +42,24 @@ public class Class04Operators {
     boolean canBeBought = currentAccount > playstationFivePrice || savingsAccount > playstationFivePrice;
     System.out.println("canBeBought " + canBeBought);
 
+
+    // = += -= *= /= %=
+    double bonus = 1800;
+    bonus += 1000; // bonus = bonus + 1000
+    bonus -= 800; // bonus = bonus - 800
+    bonus *= 2; // bonus = bonus * 2
+    bonus /= 3; // bonus = bonus / 3
+    bonus %= 2; // bonus = bonus % 2
+    System.out.println(bonus);
+
+    // Unary ++ --
+    int count = 0;
+    count++;
+    count--;
+    ++count;
+    --count;
+    System.out.println(count++);
+    System.out.println(count);
+
   }
 }
