@@ -16,7 +16,8 @@ public class Class05ConditionalsStatement02 {
     } else {
       category = "Category Master";
     }
-
+    // Never do it!
+    category = age < 15 ? "Category Junior" : age >= 15 && age < 18 ? "Category Senior" : "Category Master";
     System.out.println(category);
   }
 }
