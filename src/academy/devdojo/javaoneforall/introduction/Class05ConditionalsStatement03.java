@@ -8,7 +8,7 @@ public class Class05ConditionalsStatement03 {
     String shouldNotBuyMessage = "Don't buy ps5";
     // (condition) ? <true> : <false>
     String displayMessage = salary > 2000 ? shouldBuyMessage : shouldNotBuyMessage;
-    
+
     System.out.println(displayMessage);
   }
 }
