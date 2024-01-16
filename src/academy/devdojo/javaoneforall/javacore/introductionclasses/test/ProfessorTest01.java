@@ -10,6 +10,6 @@ public class ProfessorTest01 {
     professor.gender = 'F';
 
     System.out.println("Name: " + professor.name + "Age: " + professor.age
-        + "Gender " +  professor.gender);
+                      + "Gender: " +  professor.gender);
   }
 }
