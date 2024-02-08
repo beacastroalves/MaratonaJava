@@ -3,8 +3,7 @@ package academy.devdojo.javaoneforall.javacore.introductionmethods.test;
 import academy.devdojo.javaoneforall.javacore.introductionmethods.domain.Student;
 import academy.devdojo.javaoneforall.javacore.introductionmethods.domain.StudentPrinter;
 
-public class StudentTest01 {
-
+public class StudentTest02 {
   public static void main(String[] args) {
     Student student01 = new Student();
     Student student02 = new Student();
@@ -18,13 +17,8 @@ public class StudentTest01 {
     student02.gender = 'M';
     student02.age = 22;
 
-    printer.print(student01);
-    printer.print(student02);
+    student01.print();
+    student02.print();
 
-    System.out.println("#################");
-
-    printer.print(student01);
-    printer.print(student02);
   }
-
 }
