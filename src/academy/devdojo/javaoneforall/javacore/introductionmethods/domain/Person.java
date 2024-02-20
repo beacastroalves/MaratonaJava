@@ -6,7 +6,10 @@ public class Person {
 
   public void print() {
     System.out.println(this.name);
-    System.out.println(this.age);
+    System.out.println(this.name);
+    // Do not use get
+    //System.out.println(getName());
+    //System.out.println(getAge());
   }
 
   public void setName(String name) {
