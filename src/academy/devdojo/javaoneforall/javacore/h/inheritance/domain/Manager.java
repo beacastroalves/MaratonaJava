@@ -3,6 +3,10 @@ package academy.devdojo.javaoneforall.javacore.h.inheritance.domain;
 public class Manager extends Employee {
   private String department;
 
+  public Manager(String name) {
+    super(name);
+  }
+
   @Override
   public void print() {
     super.print();

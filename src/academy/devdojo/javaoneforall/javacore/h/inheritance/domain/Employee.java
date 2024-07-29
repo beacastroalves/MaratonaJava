@@ -6,6 +6,15 @@ public class Employee {
   protected Address address;
   protected double salary;
 
+  public Employee(String name) {
+    this.name = name;
+  }
+
+  public Employee(String name, String socialSecurityNumber) {
+    this(name);
+    this.socialSecurityNumber = socialSecurityNumber;
+  }
+
   public void print() {
     System.out.println(this.name);
     System.out.println(this.socialSecurityNumber);

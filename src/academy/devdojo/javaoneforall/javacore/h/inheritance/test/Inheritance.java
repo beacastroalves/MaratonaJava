@@ -9,18 +9,15 @@ public class Inheritance {
     Address address = new Address();
     address.setStreet("Rua Prof Gomes de Matos, 522");
     address.setZipcode("12345");
-    Employee employee = new Employee();
-    employee.setName("Maria");
+    Employee employee = new Employee("Maria");
     employee.setSocialSecurityNumber("120120120");
     employee.setSalary(120000);
     employee.setAddress(address);
-
     employee.print();
 
     System.out.println(" -------------- ");
 
-    Manager manager = new Manager();
-    manager.setName("Joana");
+    Manager manager = new Manager("Joana");
     manager.setSocialSecurityNumber("951951");
     manager.setSalary(250000);
     manager.setAddress(address);
