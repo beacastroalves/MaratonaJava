@@ -6,6 +6,10 @@ public class Car {
 
   public final Buyer BUYER = new Buyer();
 
+  public final void print() {
+    System.out.println(this.name);
+  }
+
   /*
   OPTION 1 - With 'static final' on attribute and static init block
   #0 Static init block from the superclass is executed when JVM loads the class and only once
