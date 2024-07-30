@@ -2,7 +2,10 @@ package academy.devdojo.javaoneforall.javacore.j.finalmodifier.domain;
 
 public class Car {
   private String name;
-  public final double SPEED_LIMIT;
+  public static final double SPEED_LIMIT = 250;
+
+  public final Buyer BUYER = new Buyer();
+
   /*
   OPTION 1 - With 'static final' on attribute and static init block
   #0 Static init block from the superclass is executed when JVM loads the class and only once
@@ -32,7 +35,7 @@ public class Car {
   #5 - The constructor from the superclass is executed
   */
   public Car() {
-    SPEED_LIMIT = 250;
+  //    SPEED_LIMIT = 250;
   }
 
   public String getName() {
