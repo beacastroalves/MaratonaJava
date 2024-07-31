@@ -2,19 +2,28 @@ package academy.devdojo.javaoneforall.javacore.k.enums.domain;
 
 public class Customer {
 
+  public enum PaymentType {
+    DEBIT, CREDIT
+  }
+
   private String name;
   private CustomerType customerType;
+  private PaymentType paymentType;
 
-  public Customer(String name, CustomerType customerType) {
+
+  public Customer(String name, CustomerType customerType, PaymentType paymentType) {
     this.name = name;
     this.customerType = customerType;
+    this.paymentType = paymentType;
   }
 
   @Override
   public String toString() {
     return "Customer{" +
         "name='" + name + '\'' +
-        ", customerType=" + customerType +
+        ", customerType=" + customerType.getReportValue() +
+        ", customerTypeDatabaseValue=" + customerType.getDbValue() +
+        ", paymentType=" + paymentType +
         '}';
   }
 }
