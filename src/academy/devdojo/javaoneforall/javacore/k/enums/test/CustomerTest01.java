@@ -1,7 +1,7 @@
 package academy.devdojo.javaoneforall.javacore.k.enums.test;
 
 import academy.devdojo.javaoneforall.javacore.k.enums.domain.Customer;
-import academy.devdojo.javaoneforall.javacore.k.enums.domain.Customer.PaymentType;
+import academy.devdojo.javaoneforall.javacore.k.enums.domain.PaymentType;
 import academy.devdojo.javaoneforall.javacore.k.enums.domain.CustomerType;
 
 public class CustomerTest01 {
@@ -12,5 +12,8 @@ public class CustomerTest01 {
     System.out.println(customer1);
     System.out.println(customer2);
     System.out.println(customer3);
+    System.out.println(PaymentType.DEBIT.calculateDiscount(100));
+    System.out.println(PaymentType.CREDIT.calculateDiscount(100));
+
   }
 }

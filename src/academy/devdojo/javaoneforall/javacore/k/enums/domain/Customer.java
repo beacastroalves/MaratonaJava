@@ -2,9 +2,7 @@ package academy.devdojo.javaoneforall.javacore.k.enums.domain;
 
 public class Customer {
 
-  public enum PaymentType {
-    DEBIT, CREDIT
-  }
+
 
   private String name;
   private CustomerType customerType;
