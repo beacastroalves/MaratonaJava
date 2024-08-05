@@ -9,5 +9,10 @@ public class EmployeeTest01 {
     System.out.println(manager);
     Developer developer = new Developer("Marcia", 8000.25);
     System.out.println(developer);
+
+    System.out.println("-------------");
+
+    manager.print();
+    developer.print();
   }
 }
