@@ -13,6 +13,10 @@ public class DatabaseLoader implements DataLoader, DataRemover {
 
   @Override
   public void checkPermission() {
-    System.out.println("Checking permission int the database");
+    System.out.println("Checking permission in the database");
+  }
+
+  public static void retrieveMaxDataSize() {
+    System.out.println("Inside retrieveMaxDataSize in the class DatabaseLoader");
   }
 }
